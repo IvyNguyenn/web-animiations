@@ -1,0 +1,63 @@
+// ===== COLOR =====
+
+$colorMainDark: #002c53;
+$colorMain: #3f51b5;
+$colorMainLight: #2f79d9;
+$colorGreen: #26c5a0;
+$colorGreenDark: #009956;
+$colorBlack: #2a2e43;
+$colorWhite: #fff;
+$colorGray: #8798ad;
+$colorBlue: #3c8dbc;
+$colorRed: #d0021b;
+$colorOrgan: #fba442;
+$colorMilk: #d8d9db;
+$colorYellow: #ffee04;
+$fontColor: #2f79d9;
+$buttonFromColor: #2f79d9;
+$buttonToColor: #002c53;
+$cloud: #eef1f6;
+$darksLateGray: #222d31;
+$colorLightLateGray: #2c3a41;
+$colorError: #d32f2f;
+$colorWarning: #ffa000;
+$colorInfo: #1976d2;
+$colorSuccess: #43a047;
+
+$colorGreenOpacity: transparentize($colorMainLight, 0.6);
+$colorGreenOpacity7: transparentize($colorMainLight, 0.7);
+$colorGreenOpacity1: transparentize($colorMainLight, 0.1);
+$colorHeader: #419ed0;
+$colorBorder: #c0c6d3;
+$colorTextHeader: $colorWhite;
+$colorSideMenu: #f9fafc;
+$colorBackground: #edf1f8;
+$colorBackground: transparentize($colorMainDark, 0.93);
+$borderRadius: 23px;
+$drawerWidthOpen: 192px;
+$drawerWidthClose: 60px;
+
+// ===== IMAGE & ICON =====
+
+$logo: url("/assets/images/logo.jpg");
+$background-login: url("/assets/images/background-login.jpg");
+
+// ================= START COMMON CSS =================
+.common-css {
+    .float-right {
+        float: right;
+    }
+}
+// ================= END COMMON CSS =================
+// ================= START WRAPPER =================
+.wrapperAddTheme {
+    .MuiDialogTitle-root {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .MuiFormControl-root {
+        width: 100%;
+    }
+}
+// ================= END WRAPPER =================
